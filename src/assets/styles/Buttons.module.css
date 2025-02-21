@@ -1,0 +1,17 @@
+.btn {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  border-radius: 50%;
+  border: none;
+  font-size: larger;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.351);
+  cursor: pointer;
+}
+.btnbox {
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
