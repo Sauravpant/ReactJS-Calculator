@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../assets/styles/Buttons.module.css";
-const Buttons = () => {
+const Buttons = ({ handleOnClick }) => {
   const keys = [
     "C",
     "1",
@@ -23,7 +23,16 @@ const Buttons = () => {
   return (
     <div className={styles.btnbox}>
       {keys.map((keyName) => {
-        return <button className={styles.btn}>{keyName}</button>;
+        return (
+          <button
+            className={styles.btn}
+            onClick={() => {
+              handleOnClick(keyName);
+            }}
+          >
+            {keyName}
+          </button>
+        );
       })}
     </div>
   );

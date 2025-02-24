@@ -1,9 +1,7 @@
-import Buttons from "./Buttons";
-function Display() {
+function Display({calcVal}) {
   return (
     <>
-      <input className="display" type="text" />
-      <Buttons />
+      <input className="display" type="text" value={calcVal} />
     </>
   );
 }
