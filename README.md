@@ -3,4 +3,4 @@ A simple calculator built using React.js.
 
 ## Features  
 - Basic arithmetic operations (+, -, /, *)  
-- Modular styling for components using module.css  
+- Modular styling for components using module.css and SASS for styling
