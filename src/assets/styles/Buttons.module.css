@@ -4,7 +4,7 @@
   display: inline-block;
   border-radius: 50%;
   border: none;
-  font-size: larger;
+  font-size: 2rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   background-color: rgba(0, 0, 0, 0.351);
@@ -14,4 +14,7 @@
   height: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+.btn:hover {
+  background-color: aqua;
 }

@@ -1,0 +1,33 @@
+$primary-border: 2px solid black;
+$primary-padding: 1rem;
+$primary-margin: 1rem;
+$box-height: 500px;
+$box-width: 300px;
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-box {
+  height: $box-height;
+  width: $box-width;
+  margin: $primary-margin;
+  padding: $primary-padding;
+  border: $primary-border;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  margin: 20px;
+  height: 3rem;
+  width: 100%;
+  font-size: 2em;
+  overflow: hidden;
+}
